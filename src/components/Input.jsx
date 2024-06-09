@@ -2,7 +2,7 @@ import React, {useId} from 'react'
 
 function Input({
   label,
-  test = 'text',
+  type = 'text',
   className ="",
   ...props
 }, ref){

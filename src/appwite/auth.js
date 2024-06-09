@@ -24,7 +24,7 @@ export class AuthService {
     }
   }
 
-  async logIn({email, password}){
+  async login({email, password}){
     try {
       return await this.account.createEmaailSession(email, password)
     } catch (error) {
@@ -43,7 +43,7 @@ export class AuthService {
     return null;
   }
 
-  async logOut(){
+  async logout(){
     try {
       return await this.account.deleteSessions();
     } catch (error) {

@@ -37,7 +37,7 @@ function Signup() {
         </div>
         <h2 className='text-center text-2xl font-bold leading-tight'>Signup to create Your Account</h2>
         <p className='mt-2 text-center text-base text-black/60'>
-          Do&apos;t have any account?&nbsp;
+          Don&apos;t have any account?&nbsp;
           <Link
           to="/login"
           className='font-medium text-primary transition-all duration-200 hover:underline'
